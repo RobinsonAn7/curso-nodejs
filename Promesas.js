@@ -69,6 +69,7 @@ const id = 1;
 //     .catch( err => console.log(err) );
 
 let nombre;
+let apellido;
 
 getEmpleado(id)
     .then(empleado => {
