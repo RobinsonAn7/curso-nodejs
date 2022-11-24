@@ -70,6 +70,8 @@ const id = 1;
 
 let nombre;
 let apellido;
+let nombre1;
+let apellido1;
 
 getEmpleado(id)
     .then(empleado => {
